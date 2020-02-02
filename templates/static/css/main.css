@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    font-size: large;
+}
+header{
+    height: 20%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    color:#00887A
+}
+h2{
+    color:#00887A
+}
+a{
+    color: #00887A;
+}
+p{
+    color: #FFFFFF;
+}
+.start{
+    background-color: #77a6f7;
+}
+.topnav{
+    background-color:#D3E3FC;
+}
+ul {
+    list-style: none;
+  }
+li{
+    color:#FFFFFF;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+ul li::before {
+    content: "\2022";
+    color: #FFCCBC;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+footer{
+    background-color: #D3E3FC;
+    height: 50%;
+    width: 100%;
+}
